@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="NewFile.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+	href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&family=Sriracha&display=swap"
+	rel="stylesheet">
+
+<title>Formularios To Guapos</title>
+
+</head>
+<body>
+
+
+	<div>
+
+		<p>
+
+			Elige tu documento: <br> <input type='radio' name='Radio'
+				value='DNI'>DNI o Tarjeta de residencia <br> <input
+				type='radio' name='Radio' value='Pasaporte'>Pasaporte
+
+		</p>
+	</div>
+	<div>
+		<p>
+			Número de documento: <br> <input class='bigInput' type='text'
+				name='text' placeholder='DNI o Tarjeta de Residencia'>
+		</p>
+	</div>
+
+	<div>
+		<p>
+			Fecha de nacmiento: <br> <input class='bigDateInput' type="date"
+				name='date' placeholder="date">
+		</p>
+	</div>
+
+	<div>
+		<p>
+			<input class='biggerCheckBox' type='checkbox' name='Recordar'>
+			Recordar
+
+		</p>
+	</div>
+
+	<div>
+		<input class='orangeButton' type='button' value='Entrar'>
+	</div>
+	<br>
+	<!-- start nav -->
+	<nav>
+		<!-- start menu -->
+		<ul class='nullstyle'>
+			<li><a class=for1 href='#'><span class='arrow'>> </span>Acceder
+					con DNI Electrónico</a></li>
+			<br>
+			<li><a class=for1 href='#'><span class='arrow'>> </span>Más
+					información sobre seguridad</a>
+		</ul>
+	</nav>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<h2>Formulario 2</h2>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div>
+		<p class='title'>
+			Empieza creando tu usuario:<br> <input
+				placeholder='Nombre(como sale en el DNI)' class='biggerInputForm2'
+				type='text'>
+	</div>
+
+	<div>
+		<input class='biggerInputForm2' type='text'
+			placeholder=' 1ºApellido (como sale en DNI)'><input
+			class='biggerInputForm2' type='text'
+			placeholder=' 2º apellido (como sale en el DNI)'>
+
+
+	</div>
+	<br>
+	<br>
+
+	<div>
+		<p class='statictext'>Tipo de documento</p>
+		<input type='text' placeholder='DNI/NIF/CERT.AEAT'
+			class='biggerInputForm2'><input class='biggerInputForm2'
+			type='text' placeholder='Número de documento'><br>
+	</div>
+	<br>
+	<br>
+	<div>
+		<input type='text' placeholder='Teléfono' class='biggerInputForm2'><input
+			type='text' placeholder='E-mail' class=biggerInputForm2>
+	</div>
+
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<h2>Formulario 3</h2>
+
+	<h2 class=titleform3>¿Eres nuevo?</h2>
+	<br>
+	<div class='contentbox'>
+		<p>Regístrate para guarda tu información y hacer tus pedidos de
+			forma más fácil y rápida.</p>
+	</div>
+
+	<div>
+		<p>E-mail</p>
+		<input type='text' placeholder='E-mail' class='biggerInputForm3'>
+		<br>
+		<p>Teléfono</p>
+		<input type='text' placeholder='Teléfono' class='biggerInputForm3'><br>
+		<p>Contraseña</p>
+		<input type='password' class='biggerInputForm3'
+			placeholder='Enter Password' id='myInput'> <input
+			type='checkbox' onclick='myFunction()'>Mostrar Contraseña
+		<p>Confirmar Contraseña</p>
+		<input type='password' class='biggerInputForm3'
+			placeholder='Confirm Password' id='MyInput2'> <input
+			type='checkbox' onclick='myFunction2()'>Mostrar Contraseña
+	</div>
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myInput");
+			if (x.type === "password") {
+				x.type = "text";
+			} else {
+				x.type = "password";
+			}
+		}
+
+		function myFunction2() {
+			var y = document.getElementById("MyInput2");
+			if (y.type === "password") {
+				y.type = "text";
+			} else {
+				y.type = "password";
+			}
+		}
+	</script>
+
+	<div>
+		<br> <input class='checkboxfor3' type='checkbox'> He
+		leido y acepto la <a class='for3' href='#'>Política de privacidad</a><br>
+
+
+		<input type='checkbox' class='checkboxfor3'>Sí, acepto recibir
+		comunicaciones<br> <span class='margincheckbox'>
+
+
+			comerciales y ofertas personalizadas según mi perfil</span>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

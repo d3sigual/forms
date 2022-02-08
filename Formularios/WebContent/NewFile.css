@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body {
+	margin-left: 75px;
+}
+
+p.title {
+	font-family: 'IBM Plex Sans Thai Looped';
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.bigInput {
+	padding: 10px 150px 10px 10px;
+}
+
+.bigDateInput {
+	padding: 10px 150px 10px 15px;
+}
+
+.biggerCheckBox {
+	transform: scale(2);
+	margin-right: 10px;
+}
+
+.orangeButton {
+	width: 24em;
+	background-color: orange;
+	height: 4em;
+}
+
+a.for1 {
+	text-decoration: none;
+	color: black;
+}
+
+ul.nullstyle {
+	list-style: none;
+}
+
+.arrow {
+	color: orange;
+	font-size: 1.5em;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+.biggerInputForm2 {
+	padding: 20px 150px 20px 0px;
+	margin-right: 75px;
+	width: 200px;
+}
+
+p.statictext {
+	position: relative;
+	top: 40px;
+	left: 5px;
+	font-weight: bold;
+}
+
+div.contentbox {
+	box-sizing: content-box;
+	width: 250px;
+	height: 100px;
+	position: relative;
+	text-align: center;
+	left: 50px;
+}
+
+h2.titleform3 {
+	position: relative;
+	left: 100px;
+}
+
+.biggerInputForm3 {
+	padding: 17.5px 150px 17.5px 0px;
+	margin-right: 75px;
+	width: 200px;
+}
+
+a.for3 {
+	color: black;
+}
+
+span.margincheckbox {
+	margin-left: 20px;
+}
+
+.checkboxfor3{
+	vertical-align: bottom;
+}
